@@ -1,0 +1,71 @@
+
+
+    .header {
+        background: linear-gradient(90deg, #a8769c, #4d0221);
+        color: white;
+        padding: 20px;
+        font-size: 24px;
+       
+       
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #01060a;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+     font-family: 'Amiri', serif , Arial, sans-serif , Arial; /* تحديد الخط */
+        font-size: 70px; /* حجم الخط */
+        color: #e2d9df; /* لون النص */
+        text-shadow: 2px 9px 10px rgb(248, 90, 166);
+       
+   
+}
+h2 {
+    text-align: center;
+    margin-top: 50px;
+     font-family: 'Amiri', serif , Arial, sans-serif , Arial; /* تحديد الخط */
+        font-size: 40px; /* حجم الخط */
+        color: #2c0e22; /* لون النص */
+       
+   
+}
+
+.gallery {
+    background-color: #1d0311;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    box-shadow: 0 4px 20px rgb(243, 216, 236);
+    transform: scale(1.1);
+}
+.p {
+    background:rgb(211, 207, 207);
+    text-align: left;
+
+
+}
+.footer {
+    background: linear-gradient(90deg,#4d0221 , #a8769c );
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 20px;
+}
