@@ -52,8 +52,8 @@ h2 {
 }
 
 .gallery img:hover {
-    box-shadow: 0 4px 20px rgb(243, 216, 236);
-    transform: scale(1.1);
+   box-shadow: 0 4px 20px hotpink;
+  transform: scale(1.1);
 }
 .p {
     background:rgb(211, 207, 207);
