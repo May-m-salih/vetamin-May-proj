@@ -1,61 +1,12 @@
- /*#demo  {
-    color: rgb(98, 98, 219);
-    text-align: center;
-} 
-.egypt {
-    background-image: url('R.jpg');
-    /*background-repeat: no-repeat;
-    background-position: center right ;
-    background contain ;
-}
-
-header {
-    background-image: url('Wh.jpg');
-     /* تكرار الصورة أفقيًا 
-    background-size: auto 100%;      /* تمديد الصورة بحيث يكون الارتفاع 100% من ارتفاع العنصر 
-  }
-  img {
-    display: block;
-    width: 200px;
-    height: 200px;
-    border: 3px solid gray;
-    border-radius: 100%;
-}
-div.container {
-    display: flex;
-    flex-direction : row;
-    border: 2px solid black;
-    background-color: purple;
-}
-
-div.box {
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    border: 1px solid black;
-    background-color: orange;
-    margin: 4px;
-}*/
 
     .header {
         background: linear-gradient(90deg, #a8769c, #4d0221);
         color: white;
         padding: 20px;
         font-size: 24px;
-       
-       
+        
     }
-/*
-bottom: unset;
-text-align: center;
-margin-top: 10px;
-width: 100%;
-height:70px;
-background-color: #46233f; /* لون خلفية وردي خفيف 
-color: #eedfec;
-text-align: center;  يجعل النص في الوسط 
-line-height: 5vh;  لضبط النص في منتصف الهيدر 
-}*/
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -95,11 +46,12 @@ h2 {
     width: 250px;
     height: 200px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
     transition: transform 0.3s;
 }
 
 .gallery img:hover {
+ box-shadow: 0 4px 20px rgb(243, 216, 236);
     transform: scale(1.1);
 }
 .p {
