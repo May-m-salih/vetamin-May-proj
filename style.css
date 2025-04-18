@@ -48,10 +48,11 @@
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s;
+    box-shadow: 0 4px 20px rgb(243, 216, 236);
   }
   
   .gallery img:hover {
-    box-shadow: 0 4px 20px rgb(243, 216, 236);
+    
     transform: scale(1.1);
   }
   
