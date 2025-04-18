@@ -30,6 +30,7 @@
     font-family: 'Amiri', serif, Arial, sans-serif;
     font-size: 40px;
     color: #2c0e22;
+    background-color: rgb(255, 255, 255);
   }
   
   .gallery {
@@ -54,13 +55,7 @@
     transform: scale(1.1);
   }
   
-  .section-box {
-    background: rgb(211, 207, 207);
-    text-align: left;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 20px;
-  }
+  
   
   .footer {
     background: linear-gradient(90deg, #4d0221, #a8769c);
